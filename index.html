@@ -11,69 +11,32 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | QR code component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-      .image {
-        border-radius: 5%;
-        width: 340px;
-        height: 380px;
-      }
-      .box {
-        width: 350px;
-        height: 550px;
-        padding: 12px 15px 12px 12px;
-        border: 3px solid rgb(255, 255, 255);
-        border-radius: 5%;
-        align-items: center;
-        justify-content: right;
-        text-align: center;
-        background-color: white;
-      }
-      body {
-        background-color: rgb(201, 220, 228);
-        justify-content: center;
-        align-content: center;
-        padding-left: 700px;
-        padding-top: 70px;
-      }
-      h3 {
-        color: rgb(10, 10, 58);
-        font-size: x-large;
-        font-family: Cambria, Cochin, Georgia, serif;
-      }
-      p {
-        color: lightgray;
-        font-family: Cambria, Cochin, Georgia, serif;
-        font-size: medium;
-      }
-    </style>
   </head>
-  <body>
-    <div class="box">
-      <img src="image-qr-code.png" alt="" class="image" /><br />
-
-      <h3>Improve your front-end skills by building projects</h3>
-
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+  <body class="parent">
+    <div class="container">
+      <div class="image">
+        <img src="./image-qr-code.png" alt="QR code image" />
+      </div>
+      <div class="h3">
+        <h3>Improve your front-end skills by building projects</h3>
+      </div>
+      <div class="para">
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
     </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Ma Comfort</a>.
     </div>
   </body>
 </html>
